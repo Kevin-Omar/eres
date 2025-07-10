@@ -1,15 +1,8 @@
-@font-face {
-  font-family: 'ComicSansCustom';
-  src: url('/ComicSans.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   margin: 0;
   overflow: hidden;
   background: linear-gradient(135deg, #ffe0e6, #ffffff);
-font-family: 'ComicSansCustom', 'Comic Sans MS', cursive;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
   position: relative;
   height: 100vh;
 }
@@ -30,25 +23,21 @@ font-family: 'ComicSansCustom', 'Comic Sans MS', cursive;
   max-width: 90vw;
   box-sizing: border-box;
 
-  /* Texto */
-  color: #ff69b4; /* Rosado fuerte */
-  font-weight: 900; /* Negrita */
+  color: #ff69b4;
+  font-weight: 900;
   font-size: 2.8rem;
-font-family: 'ComicSansCustom', 'Comic Sans MS', cursive;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
-
 
 .central-box h1 {
   margin: 0;
-  font-size: 8vw; /* Escala con el ancho del dispositivo */
+  font-size: 8vw;
   font-weight: bold;
-  color: rgba(255, 105, 180, 1); /* Más transparente */
-font-family: 'ComicSansCustom', 'Comic Sans MS', cursive;
+  color: rgba(255, 105, 180, 1);
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-
-
 
 /* Palabras flotantes */
 .floating-words {
@@ -62,13 +51,12 @@ font-family: 'ComicSansCustom', 'Comic Sans MS', cursive;
 
 .word {
   position: absolute;
-font-family: 'ComicSansCustom', 'Comic Sans MS', cursive;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
   opacity: 0.8;
   animation: float 20s linear infinite;
   white-space: nowrap;
-  text-shadow: 0 0 4px rgba(0,0,0,0.2); /* opcional para resaltar */
+  text-shadow: 0 0 4px rgba(0,0,0,0.2);
 }
-
 
 @keyframes float {
   0% {
@@ -79,10 +67,9 @@ font-family: 'ComicSansCustom', 'Comic Sans MS', cursive;
   }
 }
 
-/* 🔽 Pegas esto aquí al final del archivo CSS */
 @media (max-width: 600px) {
   .central-box h1 {
-    font-size: 11vw; /* Aumenta tamaño en móviles */
+    font-size: 11vw;
   }
 
   .central-box {
