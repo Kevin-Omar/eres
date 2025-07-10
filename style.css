@@ -2,7 +2,7 @@ body {
   margin: 0;
   overflow: hidden;
   background: linear-gradient(135deg, #ffe0e6, #ffffff);
-  font-family: 'Segoe UI', sans-serif;
+font-family: 'Comic Sans MS', 'Segoe UI', cursive;
   position: relative;
   height: 100vh;
 }
