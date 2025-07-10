@@ -1,14 +1,16 @@
 @font-face {
-  font-family: 'ComicWeb';
-  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAASwABEAAAAAEJgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABWAAAABwAAAAcABoA...) format('woff');
+  font-family: 'ComicSansCustom';
+  src: url('ComicSans.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
 body {
   margin: 0;
   overflow: hidden;
   background: linear-gradient(135deg, #ffe0e6, #ffffff);
-  font-family: 'ComicWeb', cursive;
+font-family: 'ComicSansCustom', 'Comic Sans MS', cursive;
+  position: relative;
   height: 100vh;
 }
 
@@ -32,7 +34,8 @@ body {
   color: #ff69b4; /* Rosado fuerte */
   font-weight: 900; /* Negrita */
   font-size: 2.8rem;
-  font-family: 'ComicWeb', cursive;
+font-family: 'ComicSansCustom', 'Comic Sans MS', cursive;
+}
 
 
 .central-box h1 {
@@ -40,7 +43,7 @@ body {
   font-size: 8vw; /* Escala con el ancho del dispositivo */
   font-weight: bold;
   color: rgba(255, 105, 180, 1); /* Más transparente */
-  font-family: 'ComicWeb', cursive;
+font-family: 'ComicSansCustom', 'Comic Sans MS', cursive;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -59,7 +62,7 @@ body {
 
 .word {
   position: absolute;
-  font-family: 'ComicWeb', cursive;
+font-family: 'ComicSansCustom', 'Comic Sans MS', cursive;
   opacity: 0.8;
   animation: float 20s linear infinite;
   white-space: nowrap;
